@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="frame inner-frame"></div>
+      <div class="frame outer-frame"></div>
+      <!-- <div class="light-switch">
+            <span class="material-symbols-outlined">dialogs</span>
+            Light Switch (Under Construction)</span>
+        </div> -->
+      <div class="copyright">
+        <span></span>
+      </div>
+      <div class="page-indicators hidden">
+        <a class="page-indicator active" href="#about">
+          <span class="material-symbols-outlined">circle</span>
+        </a>
+        <a class="page-indicator" href="#works">
+          <span class="material-symbols-outlined">circle</span>
+        </a>
+        <a class="page-indicator" href="#contact">
+          <span class="material-symbols-outlined">circle</span>
+        </a>
+      </div>
+    </header>
+
+    <nav class="hidden" id="main">
+      <li class="logo"><a href="#">Kevin Liu</a></li>
+      <ul>
+        <li>
+          <a class="seclink" href="#about">ABOUT</a>
+        </li>
+        <li>
+          <a class="seclink" href="#works">WORKS</a>
+        </li>
+        <li>
+          <a class="seclink" href="#contact">CONTACT</a>
+        </li>
+        <li>
+          <span class="vert-separator"></span>
+        </li>
+        <li>
+          <a
+            class="seclink"
+            href="https://www.linkedin.com/in/chen-kai-liu-kevin/"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            class="seclink"
+            href="https://github.com/igouProto"
+            target="_blank"
+          >
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="main-container">
+      <section class="section s0 title" data-secid="0">
+        <div class="placeholder">KEVIN LIU</div>
+        <a class="scroll-prompt hidden" href="#about">
+          SCROLL
+          <span class="material-symbols-outlined"
+            >keyboard_double_arrow_down</span
+          >
+        </a>
+      </section>
+
+      <section class="section s1 about" data-secid="1" id="about">
+        <!-- <div class="placeholder"> ABOUT </div> -->
+        <div class="container about">
+          <h1 class="sect-title">ABOUT</h1>
+
+          <div class="subcontainer col about">
+            <div class="subcontainer col education">
+              <h2>EDUCATION</h2>
+              <ul>
+                <li>MSc in Computer Science @ San Francisco State Univ.</li>
+                <li>
+                  BSc in Internet & Multimedia Technologies @ The Hong Kong
+                  Polytechnic Univ.
+                </li>
+              </ul>
+            </div>
+            <div class="subcontainer col skills">
+              <h2>SKILLS</h2>
+              <h3>Programming Languages</h3>
+              <p>HTML / CSS / JavaScript / Python / Java / C / PHP / SQL</p>
+              <h3>Techs</h3>
+              <p>React.js / Express.js / MongoDB / Heroku / AWS</p>
+              <h3>Tools</h3>
+              <p>Git / Figma / Adobe XD / Adobe Photoshop</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section s2 works" data-secid="2" id="works">
+        <div class="container works">
+
+          <div id="works-panel" class="subcontainer col works flipped">
+            <div class="works-catalog">
+							<h1 class="sect-title">WORKS</h1>
+							
+              <div id="project-headline" class="project-headline hidden">
+                <h2 id="project-title">Project 0</h2>
+                <p id="project-desc">JUL 2024 - SEP 2024 | Languages</p>
+              </div>
+
+              <div class="subcontainer col works-thumbnails">
+                <div class="thumbnail" id="th0"></div>
+                <div class="thumbnail" id="th1"></div>
+                <div class="thumbnail" id="th2"></div>
+                <div class="thumbnail" id="th3"></div>
+                <div class="thumbnail" id="th4"></div>
+                <div class="thumbnail" id="th5"></div>
+                <div class="thumbnail" id="th6"></div>
+                <div class="thumbnail" id="th7"></div>
+                <div class="thumbnail" id="th8"></div>
+                <div class="thumbnail" id="th9"></div>
+                <div class="thumbnail" id="th10"></div>
+                <div class="thumbnail" id="th11"></div>
+              </div>
+
+            </div>
+
+            <div id="works-content" class="subcontainer works-content">
+              <div id="project-back-button" class="back-button">
+                <span class="material-symbols-outlined">arrow_back</span>
+                <p>Back</p>
+              </div>
+
+              <div id="project-headline" class="project-headline">
+                <h2 id="project-title">Camera-based Interactive Table</h2>
+                <p id="project-desc">
+                  Oct 2020 - Apr 2021 | Python, QML, OpenCV
+                </p>
+              </div>
+
+              <div id="project-description" class="project-description">
+                <p>Some description</p>
+                <p>More description</p>
+                <p>A hell lot of description</p>
+              </div>
+
+              <div id="project-external-links" class="project-external-links">
+                <div class="external-link">
+                  <a href="" target="_blank"> Source Code </a>
+                  <span class="material-symbols-outlined"> arrow_outward </span>
+                </div>
+								<div class="external-link">
+                  <a href="" target="_blank"> Demo </a>
+                  <span class="material-symbols-outlined"> arrow_outward </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section s3 contact" data-secid="3" id="contact">
+        <div class="container col contact">
+          <h1 class="sect-title">CONTACT</h1>
+          <div class="subcontainer col about">
+            <div class="subcontainer col education">
+              <h3 class="tel">
+                <span class="material-symbols-outlined">call</span>
+                &nbsp; +1 415 425 5723
+              </h3>
+              <h3 class="mail">
+                <span class="material-symbols-outlined">mail</span>
+                &nbsp;
+                <a href="mailto:kevin.liu.99423@gmail.com">
+                  kevin.liu.99423@gmail.com
+                </a>
+              </h3>
+              <h3 class="cv">
+                <a
+                  href="https://drive.google.com/file/d/1b8NL1PVVcsGDRzCVfIfzqbE9QvesgztZ/view?usp=sharing"
+                  target="_blank"
+                >
+                  Grab a copy of my CV.
+                </a>
+                <span class="material-symbols-outlined"> arrow_outward </span>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="sect-num hidden">#00</div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
